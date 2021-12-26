@@ -1,0 +1,14 @@
+{
+  "name": "PortfolioSite",
+  "version": "1.0",
+  "private": true,
+  "workspaces": [
+    "packages\\PortfolioSite"
+  ],
+  "resolutions": {},
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}

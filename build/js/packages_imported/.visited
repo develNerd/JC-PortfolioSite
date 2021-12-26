@@ -1,0 +1,32 @@
+{
+  "version": "9",
+  "items": {
+    "2af3a7d5d3a191e783b02e728aae3a71": {
+      "src": "C:\\Users\\Farmerline\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-js\\1.5.21\\9b22e0c2e0dcf2ba9f27e45a48944d05b0384bc3\\kotlin-stdlib-js-1.5.21.jar",
+      "target": "kotlin\\1.5.21"
+    },
+    "fbd459a29ce2389973599bffedb8bb20": {
+      "src": "C:\\Users\\Farmerline\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-common\\1.5.21\\cc8bf3586fd2ebcf234058b9440bb406e62dfacb\\kotlin-stdlib-common-1.5.21.jar"
+    },
+    "237de0b1b2d3d1cfebd22dbdb467b2d1": {
+      "src": "C:\\Users\\Farmerline\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.web\\web-core-js\\1.0.0-alpha3\\dfcb3b8eab6b64a69b109f113f6898caaf06e9d2\\web-core-js-1.0.0-alpha3.klib"
+    },
+    "7b5263dbbc67a6411437a65722668526": {
+      "src": "C:\\Users\\Farmerline\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.runtime\\runtime-js\\1.0.0-alpha3\\f3d110fa8d67bbbd85abc765901e4b4dcda52aed\\runtime-js-1.0.0-alpha3.klib"
+    },
+    "15329003ff46d95a3b096298e1e5c7cb": {
+      "src": "C:\\Users\\Farmerline\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-coroutines-core-js\\1.5.0\\217834c27f3ba5f28b897fead52238f6f30febb1\\kotlinx-coroutines-core-jsir-1.5.0.klib"
+    },
+    "de526995f2d5b3f2adcec5ff451757e9": {
+      "src": "C:\\Users\\Farmerline\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\atomicfu-js\\0.16.1\\a462e9d32ae4d38851d2c831025981198f10f75b\\atomicfu-jsir-0.16.1.klib"
+    },
+    "337ff817e087aded273dfc9ba494baf4": {
+      "src": "C:\\Users\\Farmerline\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-test-js-runner\\1.5.21\\20ef83e15f8c2cde090f3bfd8c1eba72947f7ab8\\kotlin-test-js-runner-1.5.21.jar",
+      "target": "kotlin-test-js-runner\\1.5.21"
+    },
+    "86f9bdd1a041703da52b8693255b9d51": {
+      "src": "C:\\Users\\Farmerline\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-test-js\\1.5.21\\db9c8e994715fb1edd5bef91db179b60347cbfc9\\kotlin-test-js-1.5.21.jar",
+      "target": "kotlin-test\\1.5.21"
+    }
+  }
+}
