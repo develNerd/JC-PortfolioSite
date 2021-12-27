@@ -52,7 +52,7 @@ fun AboutMe() {
                     "I am an energetic software engineer and an excellent problem solver . I love to take up new challenges and also an early adopter of new technologies. \n" +
                             " I am  enthusiastic and ready to learn from my friends, superiors and co-workers.\n" +
                             "I enjoy what I do and hope to take on more challenging issues. \n" +
-                            "I have always been an A Team player and love to work together with other team members to achieve a common purpose. "
+                            "I have always been an A Team player and love to work together with other team members to achieve a common goal. "
                 )
             }
 
@@ -183,3 +183,4 @@ fun InterestCard(interestName: String, imageContent: @Composable () -> Unit) {
 }
 
 data class Interest(val name: String, val image: String)
+

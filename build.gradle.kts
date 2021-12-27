@@ -3,6 +3,8 @@ import org.jetbrains.compose.compose
 plugins {
     kotlin("multiplatform") version "1.5.21"
     id("org.jetbrains.compose") version "1.0.0-alpha3"
+    war
+    application
 }
 
 group = "org.flepper"
@@ -40,4 +42,10 @@ kotlin {
             }
         }
     }
+
+
+}
+
+tasks.create("stage") {
+    dependsOn("jsBrowserProductionRun")
 }

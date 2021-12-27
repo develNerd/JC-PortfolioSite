@@ -1,0 +1,18 @@
+{
+  "name": "PortfolioSite",
+  "version": "1.0.0",
+  "main": "PortfolioSite.js",
+  "types": "PortfolioSite.d.ts",
+  "devDependencies": {
+    "webpack": "4.46.0",
+    "webpack-cli": "3.3.12",
+    "format-util": "1.0.5",
+    "source-map-loader": "1.1.0",
+    "webpack-dev-server": "3.11.2",
+    "dukat": "0.5.8-rc.4"
+  },
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}

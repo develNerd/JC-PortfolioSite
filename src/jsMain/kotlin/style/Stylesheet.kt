@@ -12,14 +12,6 @@ object AppCSSVariables {
     val wtHorizontalLayoutGutter by variable<CSSUnitValue>()
     val wtFlowUnit by variable<CSSUnitValue>()
 
-    val wtHeroFontSize by variable<CSSUnitValue>()
-    val wtHeroLineHeight by variable<CSSUnitValue>()
-    val wtSubtitle2FontSize by variable<CSSUnitValue>()
-    val wtSubtitle2LineHeight by variable<CSSUnitValue>()
-    val wtH2FontSize by variable<CSSUnitValue>()
-    val wtH2LineHeight by variable<CSSUnitValue>()
-    val wtH3FontSize by variable<CSSUnitValue>()
-    val wtH3LineHeight by variable<CSSUnitValue>()
 
     val wtColCount by variable<StylePropertyNumber>()
 }
@@ -30,26 +22,6 @@ object AppStylesheet : StyleSheet() {
         maxWidth(100.percent)
     }
 
-    val composeTitleTag by style {
-        padding(5.px, 12.px)
-        letterSpacing("normal")
-        fontWeight(400)
-        lineHeight(24.px)
-
-        position(Position.Relative)
-        top((-32).px)
-        marginLeft(8.px)
-        fontSize(15.px)
-        backgroundColor(rgba(39, 40, 44, .05))
-        color(rgba(39, 40, 44, .7))
-        borderRadius(4.px, 4.px, 4.px)
-
-        media(mediaMaxWidth(640.px)) {
-            self style {
-                top((-16).px)
-            }
-        }
-    }
 
     init {
         "label, a, button" style {

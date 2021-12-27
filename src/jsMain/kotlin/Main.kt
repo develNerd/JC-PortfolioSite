@@ -10,6 +10,7 @@ fun main() {
 
     renderComposable(rootElementId = "root") {
         Style(AppStylesheet)
+        OpenSourceInfo()
         Nav()
         Home()
         AboutMe()
@@ -18,4 +19,5 @@ fun main() {
         Footer()
     }
 }
+
 

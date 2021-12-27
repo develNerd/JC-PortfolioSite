@@ -1,0 +1,15 @@
+{
+  "name": "PortfolioSite-test",
+  "version": "1.0.0",
+  "main": "kotlin/PortfolioSite-test.js",
+  "devDependencies": {},
+  "dependencies": {
+    "PortfolioSite": "1.0.0",
+    "kotlin": "file:C:\\Users\\Farmerline\\Documents\\PortfolioSite\\build\\js\\packages_imported\\kotlin\\1.5.21",
+    "kotlin-test": "file:C:\\Users\\Farmerline\\Documents\\PortfolioSite\\build\\js\\packages_imported\\kotlin-test\\1.5.21",
+    "kotlin-test-js-runner": "file:C:\\Users\\Farmerline\\Documents\\PortfolioSite\\build\\js\\packages_imported\\kotlin-test-js-runner\\1.5.21"
+  },
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}

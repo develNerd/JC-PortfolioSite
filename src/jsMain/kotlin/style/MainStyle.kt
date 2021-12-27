@@ -2,6 +2,7 @@ package style
 
 import org.jetbrains.compose.web.css.*
 import org.jetbrains.compose.web.css.keywords.auto
+import org.jetbrains.compose.web.css.selectors.hover
 import style.AppStylesheet
 
 object MainStyle : StyleSheet(AppStylesheet) {
@@ -49,6 +50,33 @@ object MainStyle : StyleSheet(AppStylesheet) {
         lineHeight("1.5")
         property("font-family", "Raleway, sans-serif")
         property("font-size", "large")
+    }
+
+    val opensourceInfo by style {
+        display(DisplayStyle.Flex)
+        borderRadius(20.px)
+        width(auto)
+        height(auto)
+        padding(20.px)
+        margin(15.px)
+        flexDirection(FlexDirection.Row)
+        backgroundColor(Color("white"))
+        property("z-index", "10")
+        property("bottom", "0")
+        opacity(0.7)
+        property("transition","visibility 0s linear 300ms, opacity 300ms")
+
+        hover(self) style {
+            opacity(1)
+            property("transition","visibility 0s linear 0s, opacity 300ms")
+        }
+    }
+
+    val normalTextsInfo by style {
+        fontWeight(300)
+        lineHeight("1.5")
+        property("font-family", "Raleway, sans-serif")
+        property("font-size", "small")
     }
 
 
