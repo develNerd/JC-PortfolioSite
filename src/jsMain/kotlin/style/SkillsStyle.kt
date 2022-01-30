@@ -21,15 +21,30 @@ object SkillsStyle : StyleSheet(AppStylesheet) {
     }
 
     val skillsSection by style {
-        height(100.percent)
+        height(auto)
         backgroundColor(Color(skillBgColor))
         backgroundSize("cover")
+    }
+
+    val skillsSectionItems by style {
+        display(DisplayStyle.Flex)
+        justifyContent(JustifyContent.Center)
+        flexDirection(FlexDirection.Row)
+        height(auto)
+
+        media(mediaMaxWidth(420.px)){
+            self style {
+                flexDirection(FlexDirection.Column)
+            }
+        }
     }
 
     val skillsColumn1 by style {
         display(DisplayStyle.Flex)
         flexDirection(FlexDirection.Column)
-        justifyContent(JustifyContent.FlexStart)
+        justifyContent(JustifyContent.Center)
+        alignItems(AlignItems.Center)
+        textAlign("center")
         paddingLeft(30.px)
         marginLeft(10.px)
         marginRight(10.px)

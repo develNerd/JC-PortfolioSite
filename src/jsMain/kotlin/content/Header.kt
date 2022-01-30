@@ -10,10 +10,14 @@ import org.jetbrains.compose.web.css.keywords.auto
 import org.jetbrains.compose.web.css.selectors.hover
 import org.jetbrains.compose.web.dom.*
 import org.w3c.dom.url.URL
+import style.AboutStyle
+import style.MainStyle.InfoIcon
+import style.MainStyle.cloneText
 import style.MainStyle.normalTexts
 import style.MainStyle.normalTextsInfo
 import style.MainStyle.opensourceInfo
 import style.ProjectsStyle
+import style.ProjectsStyle.openSourceStyle
 import style.WtContainer
 
 
@@ -31,20 +35,7 @@ fun Layout(content: @Composable () -> Unit) {
 fun OpenSourceInfo() {
     Div(
         attrs = {
-            style {
-                position(Position.Fixed)
-                overflow("hidden")
-                marginTop(0.px)
-                width(100.percent)
-                height(auto)
-                property("bottom","0")
-                display(DisplayStyle.Flex)
-                flexGrow(8)
-                alignItems(AlignItems.FlexEnd)
-                justifyContent(JustifyContent.FlexEnd)
-                paddingRight(30.px)
-                property("z-index", "10")
-            }
+            classes(openSourceStyle)
 
         }
     ) {
@@ -106,6 +97,8 @@ fun Nav() {
                     padding(10.px)
                     display(DisplayStyle.Flex)
                     flexDirection(FlexDirection.Row)
+                    alignItems(AlignItems.Center)
+                    property( " align-content","center")
                 }
             }
         ) {
@@ -124,6 +117,20 @@ fun Nav() {
             ) {
                 Text("Isaac Akakpo")
             }
+
+
+            A(href = "https://github.com/develNerd/JC-PortfolioSite/tree/main", attrs = {
+                target(ATarget.Blank)
+            }) {
+                Img(src = "ic_clone.svg", attrs = {
+                    classes(InfoIcon)
+                })
+
+
+            }
+
+
+
 
 
             /*Div(

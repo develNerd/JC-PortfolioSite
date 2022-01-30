@@ -71,6 +71,7 @@ fun AboutMe() {
                     style{
                         display(DisplayStyle.Flex)
                         justifyContent(JustifyContent.Center)
+                        flexWrap(FlexWrap.Wrap)
                         flexDirection(FlexDirection.Column)
                         width(100.percent)
                         height(auto)
@@ -100,6 +101,7 @@ fun AboutMe() {
                         Div(
                             attrs = {
                                 classes(AIColumn)
+
                             }
                         ) {
                             InterestCard(interestName = interest.name) {
@@ -129,7 +131,7 @@ fun AboutMe() {
 
                     val listOfInterests = listOf(
                         Interest("MOVIES", "ic_movies.svg"),
-                        Interest("PHOTOGRAPHY", "ic_photograph.svg"),
+                        Interest("CRAFT", "ic_photograph.svg"),
                         Interest("NATURE", "ic_nature.svg"),
                     )
 

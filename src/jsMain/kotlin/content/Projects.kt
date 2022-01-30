@@ -12,6 +12,7 @@ import style.ProjectsStyle.PColumn1
 import style.ProjectsStyle.PColumnText
 import style.ProjectsStyle.projectGitLink
 import style.ProjectsStyle.projectImageBg
+import style.ProjectsStyle.projectStyleItem
 import style.ProjectsStyle.projectsHeaders
 import style.ProjectsStyle.projectsMain
 import style.ProjectsStyle.projectsSection
@@ -75,18 +76,27 @@ fun Projects() {
                     articleLink = "",
                     playstoreLink = "",
                     image = "ic_compose_web.svg"
-                ))
+                ),
+                Project(
+                    name = "Android 12 Animation Clone",
+                    description = "This project is a clone of the Android 12 Clock Animation in the settings app." +
+                            " It helps provide in depth knowledge about  Android's Touch Input Geometry in General." +
+                            "You learn how to implement Rotation related stuff using Jetpack compose with touch events" +
+                            "" +
+                            "",
+                    githubLink = "https://github.com/develNerd/AnimatingCompoables",
+                    articleLink = "",
+                    playstoreLink = "",
+                    image = "img_clock.svg"
+                )
+
+                )
 
             openSourceProjects.forEachIndexed { index, project ->
                 Div(
                     attrs = {
-                        style {
-                            display(DisplayStyle.Flex)
-                            height(auto)
-                            flexBasis(100.percent)
-                            marginTop(20.px)
-                            flexDirection( if (index % 2 == 0) FlexDirection.Row else FlexDirection.RowReverse)
-                        }
+                        classes(projectStyleItem)
+
                     }
                 ) {
 

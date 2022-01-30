@@ -6,6 +6,7 @@ import org.jetbrains.compose.web.attributes.target
 import org.jetbrains.compose.web.css.*
 import org.jetbrains.compose.web.css.keywords.auto
 import org.jetbrains.compose.web.dom.*
+import style.FooterStyle.footerStyle
 import style.MainStyle
 import style.ProjectsStyle
 import style.mainColor
@@ -23,15 +24,7 @@ fun Footer() {
 
         Div(
             attrs = {
-                style {
-                    display(DisplayStyle.Flex)
-                    flexDirection(FlexDirection.Row)
-                    justifyContent(JustifyContent.Center)
-                    alignItems(AlignItems.Center)
-                    backgroundColor(Color(mainColor))
-                    flexBasis(100.percent)
-                    height(auto)
-                }
+                classes(footerStyle)
             }
         ) {
 

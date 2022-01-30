@@ -14,7 +14,6 @@ object AboutStyle : StyleSheet(AppStylesheet) {
         paddingRight(20.px)
         paddingTop(10.px)
         paddingBottom(20.px)
-        height(100.percent)
         justifyContent(JustifyContent.Center)
         alignItems(AlignItems.Center)
         textAlign("center")
@@ -27,6 +26,12 @@ object AboutStyle : StyleSheet(AppStylesheet) {
         display(DisplayStyle.Flex)
         height(auto)
         width(300.px)
+        media(mediaMaxWidth(420.px)){
+            self style {
+                marginTop(5.px)
+                width(auto)
+            }
+        }
     }
 
 
@@ -54,11 +59,25 @@ object AboutStyle : StyleSheet(AppStylesheet) {
         display(DisplayStyle.Flex)
         justifyContent(JustifyContent.Center)
         alignItems(AlignItems.Center)
+        media(mediaMaxWidth(600.px)){
+            self style {
+                height(60.px)
+                width(60.px)
+            }
+
+        }
     }
 
     val InterestIconItem by style {
         height(40.px)
         width(40.px)
+        media(mediaMaxWidth(600.px)){
+            self style {
+                height(24.px)
+                width(24.px)
+            }
+
+        }
 
     }
 

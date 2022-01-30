@@ -1,5 +1,6 @@
 package style
 
+import content.visibility
 import org.jetbrains.compose.web.css.*
 import org.jetbrains.compose.web.css.keywords.auto
 import style.AppStylesheet
@@ -7,7 +8,41 @@ import style.AppStylesheet
 object ProjectsStyle : StyleSheet(AppStylesheet) {
 
 
+    val openSourceStyle by style {
+        position(Position.Fixed)
+        overflow("hidden")
+        marginTop(0.px)
+        width(100.percent)
+        height(auto)
+        property("bottom","0")
+        display(DisplayStyle.Flex)
+        flexGrow(8)
+        alignItems(AlignItems.FlexEnd)
+        justifyContent(JustifyContent.FlexEnd)
+        paddingRight(30.px)
+        property("z-index", "10")
+        media(mediaMaxWidth(420.px)){
+            self style {
+                visibility("hidden")
+            }
+        }
+    }
+
+    val projectStyleItem by style {
+        display(DisplayStyle.Flex)
+        height(auto)
+        flexBasis(100.percent)
+        marginTop(20.px)
+        flexDirection( FlexDirection.Row )
+        media(mediaMaxWidth(420.px)){
+            self style {
+                flexDirection( FlexDirection.Column)
+            }
+        }
+    }
+
     val projectsMain by style {
+
         flexDirection(FlexDirection.Column)
         display(DisplayStyle.Flex)
         paddingLeft(20.px)

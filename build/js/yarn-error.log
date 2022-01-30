@@ -2,7 +2,7 @@ Arguments:
   C:\Users\Farmerline\.gradle\nodejs\node-v14.15.4-win-x64\node.exe C:\Users\Farmerline\.gradle\yarn\yarn-v1.22.10\bin\yarn.js
 
 PATH: 
-  C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Farmerline\AppData\Local\Microsoft\WindowsApps;C:\Users\Farmerline\AppData\Local\GitHubDesktop\bin;C:\Users\Farmerline\AppData\Local\Programs\Microsoft VS Code\bin
+  C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Farmerline\AppData\Local\Microsoft\WindowsApps;C:\Users\Farmerline\AppData\Local\GitHubDesktop\bin;C:\Users\Farmerline\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\Farmerline\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin
 
 Yarn version: 
   1.22.10
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: ENOENT: no such file or directory, copyfile 'C:\Users\Farmerline\AppData\Local\Yarn\Cache\v6\npm-@types-node-17.0.4-fec0ce0526abb6062fd206d72a642811b887a111-integrity\node_modules\@types\node\assert\strict.d.ts' -> 'C:\Users\Farmerline\Documents\PortfolioSite\build\js\node_modules\@types\node\assert\strict.d.ts'
+  Error: ENOENT: no such file or directory, lstat 'C:\Users\Farmerline\Documents\PortfolioSite\build\js\node_modules\hmac-drbg'
 
 npm manifest: 
   {
@@ -59,9 +59,9 @@ Lockfile:
     integrity sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==
   
   "@types/node@*":
-    version "17.0.4"
-    resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.4.tgz#fec0ce0526abb6062fd206d72a642811b887a111"
-    integrity sha512-6xwbrW4JJiJLgF+zNypN5wr2ykM9/jHcL7rQ8fZe2vuftggjzZeRSM4OwRc6Xk8qWjwJ99qVHo/JgOGmomWRog==
+    version "17.0.13"
+    resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.13.tgz#5ed7ed7c662948335fcad6c412bb42d99ea754e3"
+    integrity sha512-Y86MAxASe25hNzlDbsviXl8jQHb0RDvKt4c40ZJQ1Don0AAL0STLZSs4N+6gLEO55pedy7r2cLwS+ZDxPm/2Bw==
   
   "@webassemblyjs/ast@1.9.0":
     version "1.9.0"
@@ -698,9 +698,9 @@ Lockfile:
       fsevents "^1.2.7"
   
   chokidar@^3.4.1:
-    version "3.5.2"
-    resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.2.tgz#dba3976fcadb016f66fd365021d91600d01c1e75"
-    integrity sha512-ekGhOnNVPgT77r4K/U3GDhu+FQ2S8TnK/s2KbIGXi0SZWuwkZ2QNyfWdZW+TVfn84DpEP7rLeCt2UI6bJ8GwbQ==
+    version "3.5.3"
+    resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
+    integrity sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==
     dependencies:
       anymatch "~3.1.2"
       braces "~3.0.2"
@@ -1418,9 +1418,9 @@ Lockfile:
       readable-stream "^2.3.6"
   
   follow-redirects@^1.0.0:
-    version "1.14.6"
-    resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.6.tgz#8cfb281bbc035b3c067d6cd975b0f6ade6e855cd"
-    integrity sha512-fhUl5EwSJbbl8AR+uYL2KQDxLkdSjZGR36xy46AO7cOMTrCMON6Sa28FmAnC2tRTDbd/Uuzz3aJBv7EBN7JH8A==
+    version "1.14.7"
+    resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.7.tgz#2004c02eb9436eee9a21446a6477debf17e81685"
+    integrity sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ==
   
   for-in@^1.0.2:
     version "1.0.2"
@@ -1591,9 +1591,9 @@ Lockfile:
       pinkie-promise "^2.0.0"
   
   graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2:
-    version "4.2.8"
-    resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.8.tgz#e412b8d33f5e006593cbd3cee6df9f2cebbe802a"
-    integrity sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==
+    version "4.2.9"
+    resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.9.tgz#041b05df45755e587a24942279b9d113146e1c96"
+    integrity sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==
   
   handle-thing@^2.0.0:
     version "2.0.1"
@@ -2674,9 +2674,9 @@ Lockfile:
       sha.js "^2.4.8"
   
   picomatch@^2.0.4, picomatch@^2.2.1:
-    version "2.3.0"
-    resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.0.tgz#f1f061de8f6a4bf022892e2d128234fb98302972"
-    integrity sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==
+    version "2.3.1"
+    resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
+    integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
   
   pify@^2.0.0:
     version "2.3.0"
@@ -2898,9 +2898,9 @@ Lockfile:
       safe-regex "^1.1.0"
   
   regexp.prototype.flags@^1.2.0:
-    version "1.3.1"
-    resolved "https://registry.yarnpkg.com/regexp.prototype.flags/-/regexp.prototype.flags-1.3.1.tgz#7ef352ae8d159e758c0eadca6f8fcb4eef07be26"
-    integrity sha512-JiBdRBq91WlY7uRJ0ds7R+dU02i6LKi8r3BuQhNXn+kmeLN+EfHhfjqMRis1zJxnlu88hq/4dx0P2OP3APRTOA==
+    version "1.4.1"
+    resolved "https://registry.yarnpkg.com/regexp.prototype.flags/-/regexp.prototype.flags-1.4.1.tgz#b3f4c0059af9e47eca9f3f660e51d81307e72307"
+    integrity sha512-pMR7hBVUUGI7PMA37m2ofIdQCsomVnas+Jn5UPGAHQ+/LlwKm/aTLJHdasmHRzlfeZwHiAOaRSo2rbBDm3nNUQ==
     dependencies:
       call-bind "^1.0.2"
       define-properties "^1.1.3"
@@ -3038,9 +3038,9 @@ Lockfile:
     integrity sha1-Yl2GWPhlr0Psliv8N2o3NZpJlMo=
   
   selfsigned@^1.10.8:
-    version "1.10.11"
-    resolved "https://registry.yarnpkg.com/selfsigned/-/selfsigned-1.10.11.tgz#24929cd906fe0f44b6d01fb23999a739537acbe9"
-    integrity sha512-aVmbPOfViZqOZPgRBT0+3u4yZFHpmnIghLMlAcb5/xhp5ZtB/RVnKhz5vl2M32CLXAqR4kha9zfhNg0Lf/sxKA==
+    version "1.10.14"
+    resolved "https://registry.yarnpkg.com/selfsigned/-/selfsigned-1.10.14.tgz#ee51d84d9dcecc61e07e4aba34f229ab525c1574"
+    integrity sha512-lkjaiAye+wBZDCBsu5BGi0XiLRxeUlsGod5ZP924CRSEoGuZAw/f7y9RKu28rwTfiHVhdavhB0qH0INV6P1lEA==
     dependencies:
       node-forge "^0.10.0"
   
@@ -3562,9 +3562,9 @@ Lockfile:
     integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
   
   url-parse@^1.4.3, url-parse@^1.5.3:
-    version "1.5.3"
-    resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.3.tgz#71c1303d38fb6639ade183c2992c8cc0686df862"
-    integrity sha512-IIORyIQD9rvj0A4CLWsHkBBJuNqWpFQe224b6j9t/ABmquIS0qDU2pY6kl6AuOrL5OkCXHMCFNe1jBcuAggjvQ==
+    version "1.5.4"
+    resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.4.tgz#e4f645a7e2a0852cc8a66b14b292a3e9a11a97fd"
+    integrity sha512-ITeAByWWoqutFClc/lRZnFplgXgEZr3WJ6XngMM/N9DMIm4K8zXPCZ1Jdu0rERwO84w1WC5wkle2ubwTA4NTBg==
     dependencies:
       querystringify "^2.1.1"
       requires-port "^1.0.0"

@@ -48,3 +48,21 @@ html, body {
     height: 100%;
     background: yellow;
 }
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 600px) {
+    .about-section {
+        height: auto;
+        background-color: #1A475B;
+        background-size: cover;
+    }
+}
+
+
+

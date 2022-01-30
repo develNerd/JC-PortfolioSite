@@ -6,6 +6,7 @@ import org.jetbrains.compose.web.css.selectors.hover
 import org.jetbrains.compose.web.dom.*
 import style.HomeStyle.HColumn
 import style.HomeStyle.HPositionItem
+import style.HomeStyle.HomeMain
 import style.HomeStyle.enthusiasticText
 import style.HomeStyle.profile
 import style.MainStyle
@@ -24,9 +25,7 @@ fun Home() {
         Div(attrs = {
         }) {
             Div(attrs = {
-                style {
-                    display(DisplayStyle.Flex)
-                }
+                classes(HomeMain)
             })
             {
 

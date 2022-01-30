@@ -13,6 +13,7 @@ import style.SkillsStyle.skillRatingBox
 import style.SkillsStyle.skillsColumn1
 import style.SkillsStyle.skillsMain
 import style.SkillsStyle.skillsSection
+import style.SkillsStyle.skillsSectionItems
 
 @Composable
 fun Skills() {
@@ -46,11 +47,7 @@ fun Skills() {
             Div(
                 attrs = {
                     style {
-                        display(DisplayStyle.Flex)
-                        justifyContent(JustifyContent.Center)
-                        flexDirection(FlexDirection.Row)
-                        width(100.percent)
-                        height(auto)
+                       classes(skillsSectionItems)
                     }
                 }
             ) {
@@ -59,7 +56,7 @@ fun Skills() {
                     listOf(
                         Skill(
                             image = "ic_android.svg",
-                            name = "Android Engineer",
+                            name = "Android Engineering",
                             skillLevel = 83,
                             experience = 3,
                             proficiency = "Proficient",

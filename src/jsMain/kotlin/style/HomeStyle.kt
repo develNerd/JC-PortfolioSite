@@ -9,16 +9,45 @@ object HomeStyle : StyleSheet(AppStylesheet) {
 
 
     val HColumn by style {
+
         flex(50.percent)
         flexDirection(FlexDirection.Column)
-        height(300.px)
         display(DisplayStyle.Flex)
         justifyContent(JustifyContent.Center)
         alignItems(AlignItems.Center)
         textAlign("center")
+
+        media(mediaMaxWidth(400.px)) {
+            self style {
+                flex(100.percent)
+                flexDirection(FlexDirection.Column)
+                display(DisplayStyle.Flex)
+                justifyContent(JustifyContent.Center)
+                alignItems(AlignItems.Center)
+                textAlign("center")
+            }
+
+        }
+
+
+
     }
 
+    val HomeMain by style {
+        display(DisplayStyle.Flex)
+        flexDirection(FlexDirection.Row)
+
+        media(mediaList = arrayOf(mediaMaxWidth(600.px))) {
+            self style {
+                flexDirection(FlexDirection.Column)
+            }
+        }
+
+    }
+
+
     val HPositionItem by style {
+
         position(Position.Absolute)
     }
 
@@ -53,3 +82,5 @@ object HomeStyle : StyleSheet(AppStylesheet) {
 
 
 }
+
+

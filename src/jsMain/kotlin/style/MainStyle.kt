@@ -79,5 +79,27 @@ object MainStyle : StyleSheet(AppStylesheet) {
         property("font-size", "small")
     }
 
+    val cloneText by style {
+        fontWeight(100)
+        lineHeight("1")
+        color(Color.white)
+        property("font-family", "Raleway, sans-serif")
+        property("font-size", "small")
+    }
+
+    val InfoIcon by style {
+        height(40.px)
+        width(40.px)
+        marginTop(5.px)
+        marginRight(15.px)
+        media(mediaMaxWidth(600.px)){
+            self style {
+                height(24.px)
+                width(24.px)
+            }
+
+        }
+
+    }
 
 }
