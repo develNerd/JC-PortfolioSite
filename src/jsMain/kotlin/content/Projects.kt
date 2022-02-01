@@ -55,13 +55,6 @@ fun Projects() {
                     image = "jc_switch.gif"
                 ),
                 Project(
-                    name = "Animating Composables (Coming Soon)",
-                    description = "A Beginners Tutorial for Animating Jetpack Compose Views. The article focuses on helping beginners understand the basics of animations in compose and also how it could be effectively used to enrich user interfaces wjen building android apps.\n",
-                    githubLink = "https://github.com/develNerd/AnimatingCompoables",
-                    articleLink = "https://github.com/develNerd/AnimatingCompoables",
-                    playstoreLink = ""
-                ),
-                Project(
                     name = "Savit Authenticator",
                     description = "Savit Authenticator is probably the first open source Jetpack Compose Only Authenticator App deployed using Jenkins CI built to Encourage the use Offline Time / Counter Based One Time Passwords. (This project made great use of the open source Google Authenticator project)",
                     githubLink = "https://github.com/develNerd/SavitAuthenticator",
@@ -77,6 +70,7 @@ fun Projects() {
                     playstoreLink = "",
                     image = "ic_compose_web.svg"
                 ),
+
                 Project(
                     name = "Android 12 Animation Clone",
                     description = "This project is a clone of the Android 12 Clock Animation in the settings app." +
@@ -87,8 +81,16 @@ fun Projects() {
                     githubLink = "https://github.com/develNerd/AnimatingCompoables",
                     articleLink = "",
                     playstoreLink = "",
-                    image = "img_clock.svg"
-                )
+                    image = "clock_image.gif"
+                ),
+                Project(
+                    name = "Animating Composables (Coming Soon)",
+                    description = "A Beginners Tutorial for Animating Jetpack Compose Views. The article focuses on helping beginners understand the basics of animations in compose and also how it could be effectively used to enrich user interfaces wjen building android apps.\n",
+                    githubLink = "https://github.com/develNerd/AnimatingCompoables",
+                    articleLink = "https://github.com/develNerd/AnimatingCompoables",
+                    playstoreLink = ""
+                ),
+
 
                 )
 

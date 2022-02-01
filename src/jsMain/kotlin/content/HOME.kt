@@ -34,7 +34,6 @@ fun Home() {
                         classes(HColumn)
                     }
                 ) {
-
                     Div(attrs = {
                         style {
                             backgroundColor(rgba(196, 196, 196, 0.47))
@@ -50,6 +49,7 @@ fun Home() {
                             justifyContent(JustifyContent.Center)
                             alignItems(AlignItems.Center)
                             position(Position.Relative)
+                            marginTop(100.px)
                         }
                     })
                     {

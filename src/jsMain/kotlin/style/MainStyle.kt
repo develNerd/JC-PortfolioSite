@@ -1,5 +1,6 @@
 package style
 
+import content.visibility
 import org.jetbrains.compose.web.css.*
 import org.jetbrains.compose.web.css.keywords.auto
 import org.jetbrains.compose.web.css.selectors.hover
@@ -101,5 +102,17 @@ object MainStyle : StyleSheet(AppStylesheet) {
         }
 
     }
+
+    val builtWComposeTxt by style {
+        marginRight(10.px)
+        media(mediaMaxWidth(600.px)){
+            self style {
+                property("display","none")
+            }
+
+        }
+
+    }
+
 
 }
