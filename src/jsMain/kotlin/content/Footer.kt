@@ -37,7 +37,7 @@ fun footer() {
                     icon = "ic_instagram.svg",
                     link = "https://www.instagram.com/"
                 ),
-                SocialMedia(name = "@_edem", icon = "ic_twitter.svg", link = "https://twitter.com/_edem"),
+                SocialMedia(name = "@twitter", icon = "ic_twitter.svg", link = "https://twitter.com/_edem"),
                 SocialMedia(
                     name = "name",
                     icon = "ic_linkedin.svg",
