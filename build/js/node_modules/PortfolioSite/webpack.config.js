@@ -1,5 +1,5 @@
 let config = {
-  mode: 'development',
+  mode: 'production',
   resolve: {
     modules: [
       "node_modules"
@@ -34,7 +34,7 @@ config.module.rules.push({
         use: ["source-map-loader"],
         enforce: "pre"
 });
-config.devtool = 'eval-source-map';
+config.devtool = 'source-map';
 
 config.stats = config.stats || {}
 Object.assign(config.stats, config.stats, {
@@ -42,13 +42,19 @@ Object.assign(config.stats, config.stats, {
 })
 
 
-// dev server
-config.devServer = {
-  "open": true,
-  "contentBase": [
-    "C:\\Users\\Farmerline\\Documents\\PortfolioSite\\build\\processedResources\\js\\main"
-  ]
-};
+// Report progress to console
+// noinspection JSUnnecessarySemicolon
+;(function(config) {
+    const webpack = require('webpack');
+    const handler = (percentage, message, ...args) => {
+        const p = percentage * 100;
+        let msg = `${Math.trunc(p / 10)}${Math.trunc(p % 10)}% ${message} ${args.join(' ')}`;
+        msg = msg.replace(new RegExp("C:\\Users\\Farmerline\\Documents\\PortfolioSite\\build\\js", 'g'), '');;
+        console.log(msg);
+    };
+
+    config.plugins.push(new webpack.ProgressPlugin(handler))
+})(config);
 
 // noinspection JSUnnecessarySemicolon
 ;(function(config) {

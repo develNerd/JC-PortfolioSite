@@ -64,7 +64,7 @@ fun Nav() {
 
                 }
             ) {
-                Text("Isaac Akakpo")
+                Text("Name Goes Here")
             }
 
 

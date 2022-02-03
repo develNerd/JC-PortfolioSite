@@ -46,49 +46,50 @@ fun Projects() {
 
             val openSourceProjects = listOf(
                 Project(
-                    name = "JC-Switch",
-                    description = "JC-Switch is Jetpack Compose Custom Switch Library built to enble fellow android developers implement a more customisable switch aside the orthodox android switch  provided\n" +
-                            "provided by android or the material design libraries. It is easy to use and has a pretty staright forward documentation. Fill free to use it in any project and fork or make a pull request if you wish to contribute.",
-                    githubLink = "https://github.com/develNerd/JC-CustomSwitch",
+                    name = "Project Name",
+                    description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut" +
+                            " enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    githubLink = "https://github.com/develNerd/AnimatingCompoables",
                     articleLink = "",
                     playstoreLink = "",
-                    image = "jc_switch.gif"
+                    image = "ic_github.svg"
                 ),
                 Project(
-                    name = "Savit Authenticator",
-                    description = "Savit Authenticator is probably the first open source Jetpack Compose Only Authenticator App deployed using Jenkins CI built to Encourage the use Offline Time / Counter Based One Time Passwords. (This project made great use of the open source Google Authenticator project)",
-                    githubLink = "https://github.com/develNerd/SavitAuthenticator",
+                    name = "Project Name",
+                    description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut" +
+                            " enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    githubLink = "https://github.com/develNerd/AnimatingCompoables",
                     articleLink = "",
                     playstoreLink = "",
-                    image = "ic_savit_authenticator.png"
+                    image = "ic_github.svg"
                 ),
                 Project(
-                    name = "JC-PortolioSite",
-                    description = "JC-PortolioSite is a static website template built jetpack compose (Compose for Web) to help fellow developers extend their compose abilities to web development. Feel free to use this ",
-                    githubLink = "https://github.com/develNerd/JC-PortfolioSite",
+                    name = "Project Name",
+                    description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut" +
+                            " enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    githubLink = "https://github.com/develNerd/AnimatingCompoables",
                     articleLink = "",
                     playstoreLink = "",
-                    image = "ic_compose_web.svg"
+                    image = "ic_github.svg"
                 ),
 
                 Project(
-                    name = "Android 12 Animation Clone",
-                    description = "This project is a clone of the Android 12 Clock Animation in the settings app." +
-                            " It helps provide in depth knowledge about  Android's Touch Input Geometry in General." +
-                            "You learn how to implement Rotation related stuff using Jetpack compose with touch events" +
-                            "" +
-                            "",
+                    name = "Project Name",
+                    description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut" +
+                            " enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                     githubLink = "https://github.com/develNerd/AnimatingCompoables",
                     articleLink = "",
                     playstoreLink = "",
-                    image = "clock_image.gif"
+                    image = "ic_github.svg"
                 ),
                 Project(
-                    name = "Animating Composables (Coming Soon)",
-                    description = "A Beginners Tutorial for Animating Jetpack Compose Views. The article focuses on helping beginners understand the basics of animations in compose and also how it could be effectively used to enrich user interfaces wjen building android apps.\n",
+                    name = "Project Name",
+                    description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut" +
+                            " enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                     githubLink = "https://github.com/develNerd/AnimatingCompoables",
-                    articleLink = "https://github.com/develNerd/AnimatingCompoables",
-                    playstoreLink = ""
+                    articleLink = "",
+                    playstoreLink = "",
+                    image = "ic_github.svg"
                 ),
 
 
@@ -152,7 +153,7 @@ fun Projects() {
                             Text("Github Link")
                         }
 
-                        if (project.articleLink.isNotEmpty()){
+                        if (project.articleLink.isNotEmpty()) {
                             A(href = project.githubLink, attrs = {
                                 classes(projectGitLink)
                                 target(ATarget.Blank)

@@ -1,11 +1,19 @@
 {
-  mode: 'development',
+  mode: 'production',
   resolve: {
     modules: [
       'node_modules'
     ]
   },
   plugins: [
+    ProgressPlugin {
+      profile: false,
+      handler: [Function: handler],
+      modulesCount: 500,
+      showEntries: false,
+      showModules: true,
+      showActiveModules: true
+    },
     TeamCityErrorPlugin {}
   ],
   module: {
@@ -31,18 +39,12 @@
     libraryTarget: 'umd',
     globalObject: 'this'
   },
-  devtool: 'eval-source-map',
+  devtool: 'source-map',
   stats: {
     warningsFilter: [
       /Failed to parse source map/
     ],
     warnings: false,
     errors: false
-  },
-  devServer: {
-    open: true,
-    contentBase: [
-      'C:\\Users\\Farmerline\\Documents\\PortfolioSite\\build\\processedResources\\js\\main'
-    ]
   }
 }

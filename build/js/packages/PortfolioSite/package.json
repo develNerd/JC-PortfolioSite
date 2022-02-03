@@ -6,8 +6,7 @@
     "webpack": "4.46.0",
     "webpack-cli": "3.3.12",
     "format-util": "1.0.5",
-    "source-map-loader": "1.1.0",
-    "webpack-dev-server": "3.11.2"
+    "source-map-loader": "1.1.0"
   },
   "dependencies": {
     "kotlin": "file:C:\\Users\\Farmerline\\Documents\\PortfolioSite\\build\\js\\packages_imported\\kotlin\\1.5.21",

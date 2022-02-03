@@ -66,7 +66,7 @@ fun Home() {
                                     property("color","white")
                                 }
                             }) {
-                                Text("Isaac Akakpo")
+                                Text("Name Goes Here")
                             }
                         }
 
@@ -89,10 +89,10 @@ fun Home() {
                     }
                 ) {
                     P {
-                        Text("Enthusiastic Android")
+                        Text("Title Goes Here")
                     }
                     P{
-                        Text("Engineer")
+                        Text("Extra Title Info")
                     }
 
                 }

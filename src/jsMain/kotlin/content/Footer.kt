@@ -30,18 +30,18 @@ fun footer() {
         ) {
 
             val socials = listOf(
-                SocialMedia(name = "isaacakakpo4@gmail.com", icon = "ic_email.svg", link = ""),
+                SocialMedia(name = "email", icon = "ic_email.svg", link = ""),
                 SocialMedia(name = "develNerd", icon = "ic_github_social.svg", link = "https://github.com/develNerd"),
                 SocialMedia(
-                    name = "@_edemkoku",
+                    name = "@linkName",
                     icon = "ic_instagram.svg",
-                    link = "https://www.instagram.com/_edemkoku/"
+                    link = "https://www.instagram.com/"
                 ),
                 SocialMedia(name = "@_edem", icon = "ic_twitter.svg", link = "https://twitter.com/_edem"),
                 SocialMedia(
-                    name = "isaacakakpo",
+                    name = "name",
                     icon = "ic_linkedin.svg",
-                    link = "https://www.linkedin.com/in/isaac-akakpo/"
+                    link = "https://www.linkedin.com/in/"
                 ),
             )
 

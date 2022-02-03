@@ -49,10 +49,10 @@ fun AboutMe() {
                 classes(Body1)
             }) {
                 Text(
-                    "I am an energetic software engineer and an excellent problem solver . I love to take up new challenges and also an early adopter of new technologies. \n" +
-                            " I am  enthusiastic and ready to learn from my friends, superiors and co-workers.\n" +
-                            "I enjoy what I do and hope to take on more challenging issues. \n" +
-                            "I have always been an A Team player and love to work together with other team members to achieve a common goal. "
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+                            "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
+                            "Ut enim ad minim veniam, quis nostrud exercitation " +
+                            "ullamco laboris nisi ut aliquip ex ea commodo consequat."
                 )
             }
 

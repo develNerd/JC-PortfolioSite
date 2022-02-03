@@ -13,7 +13,7 @@ fun main() {
         Skills()
         Projects()
         footer()
-        openSourceFooter()
+        //openSourceFooter()
     }
 }
 
