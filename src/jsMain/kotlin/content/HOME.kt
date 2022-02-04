@@ -71,7 +71,7 @@ fun Home() {
                         }
 
 
-                        Img(src = "img_profile.png", attrs = {
+                        Img(src = "img_profile.svg", attrs = {
                             style {
                                 position(Position.Absolute)
                                 width(100.percent)
