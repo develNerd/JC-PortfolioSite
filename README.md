@@ -21,4 +21,4 @@ More info about deployment gihub pages here
 
 
 
-[View Sample here](https://develnerd.github.io/)
+[View Project Sample here](https://develnerd.github.io/)
