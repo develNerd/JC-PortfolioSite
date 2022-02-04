@@ -13,7 +13,7 @@ Build for Release
 
 # Deploy to Github Pages
 
-Commit and Push contents of 'distribution' folder to github pages repo
+Commit and Push contents of 'build/distribution' folder to github pages repo
 
 More info about deployment gihub pages here 
 
